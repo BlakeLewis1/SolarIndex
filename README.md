@@ -1,0 +1,2 @@
+# SolarIndex
+QA Training Project
