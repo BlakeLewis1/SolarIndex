@@ -4,7 +4,7 @@ from os import getenv
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = getenv('SOLARDB_URI')
+app.config['SQLALCHEMY_DATABASE_URI'] = getenv('SOLAR_DB')
 app.config['SECRET_KEY'] = getenv('SECRET_KEY')
 db = SQLAlchemy(app)
 
