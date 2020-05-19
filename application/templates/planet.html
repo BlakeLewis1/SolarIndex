@@ -6,6 +6,7 @@
     <!-- the form -->
     <form method='POST' action=''>
         <!-- first_name.label is the text displayed on the screen next to the text box --> 
+        {{ form.hidden_tag() }}
         {{ form.planet_name.label }}
         <!-- first_name is the input field, a text box in this case --> 
         {{ form.planet_name }}
@@ -22,12 +23,12 @@
             </div>
         <!-- end the if statement -->
         {% endif %}
-	{{ form.planet_type.label }}
-	{{ form.planet_type }}
+	{{ form.astronomical_type.label }}
+	{{ form.astronomical_type }}
 
-	{% if form.planet_type.errors %}
+	{% if form.astronomical_type.errors %}
 	<div class="error">
-	    {% for error in form.planet_type.errors %}
+	    {% for error in form.astronomical_type.errors %}
 	        <span>{{ error }}</span>
 	    {% endfor %}
 	</div>
@@ -40,7 +41,8 @@
                 <span>{{ error }}</span>
             {% endfor %}
 	{% endif %}
-	{{ form.submit }}
+    {{ form.submit }}
+    
         </div>
     </form>
 </div>

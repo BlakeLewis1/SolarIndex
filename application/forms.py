@@ -9,7 +9,7 @@ class PlanetForm(FlaskForm):
             Length(min=2, max=50)
         ]
     )
-    planet_type = StringField('Planet Type',
+    astronomical_type = StringField('astronomical Type',
         validators = [
             DataRequired(),
             Length(min=2, max=50)
@@ -26,10 +26,31 @@ class PlanetForm(FlaskForm):
 
 class SolarForm(FlaskForm):
     solar_name = StringField('Solar Name',
-      validators = [
-          DataRequired(),
-          Length(min=2, max=50)
+    validators = [
+        DataRequired(),
+        Length(min=2, max=50)
 
         ]
     )
     submit = SubmitField('Add SolarSystem')
+
+class UpdatePlanetForm(FlaskForm):
+    planet_name = StringField('Planet Name',
+    validators = [
+        DataRequired(),
+        Length(min=2, max=50)
+        ]
+    )
+    astronomical_type = StringField('astronomical Type',
+        validators = [
+            DataRequired(),
+            Length(min=2, max=50)
+        ]
+    )
+    describe = StringField('Describe the Planet',
+        validators = [
+            DataRequired(),
+            Length(min=2, max=1000)
+        ]
+    )
+    submit = SubmitField('Add Planet')
