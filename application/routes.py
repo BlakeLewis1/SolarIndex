@@ -65,6 +65,17 @@ def updateplanet(name):
         form.describe.data=planets.describe
     return render_template('planet.html', title='update planet', form=form)
 
+@app.route('/<name>/delete', methods=['GET', 'POST'])
+def deleteplanet(name):
+    planet = Planets.query.filter_by(planet_name=name)
+    for p in planet:
+        db.session.delete(p)
+
+    
+
+    db.session.commit()
+    return redirect(url_for('home'))
+
 
        
     
