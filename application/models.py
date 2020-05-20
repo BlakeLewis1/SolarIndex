@@ -5,6 +5,7 @@ class Planets(db.Model):
     planet_name = db.Column(db.String(30), nullable=False)
     astronomical_type = db.Column(db.String(30), nullable=False)
     describe = db.Column(db.String(500), nullable=False, unique=True)
+    ssystem_id = db.Column(db.Integer, db.ForeignKey('solar.id'))
     
     def __repr__(self):
         return ''.join([
@@ -15,7 +16,7 @@ class Planets(db.Model):
 class Solar(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     solar_name = db.Column(db.String(50), nullable=False, unique=True)
-    
+    planets = db.relationship('Planets',backref='ssystem',lazy = False)
     
     def __repr__(self):
         return ''.join([

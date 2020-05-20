@@ -7,19 +7,21 @@ from application.forms import PlanetForm, SolarForm
 @app.route('/home')
 
 def home():
+    solars = Solar.query.all()
     planets = Planets.query.all()
-    return render_template('home.html', title='Home', planets = planets)
+    return render_template('home.html', title='Home', planets = planets, solar=solars)
 
  
 @app.route('/planet', methods=['GET', 'POST'])
 def planet():
     form = PlanetForm()
-    
+    solar = 1
     if form.validate_on_submit():
         planetData = Planets(
             planet_name = form.planet_name.data,
             astronomical_type = form.astronomical_type.data,
-            describe = form.describe.data
+            describe = form.describe.data,
+            ssystem_id = solar
         )
 
         db.session.add(planetData)

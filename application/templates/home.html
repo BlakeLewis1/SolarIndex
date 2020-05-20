@@ -3,21 +3,20 @@
 {% block body_content %}
     <p1> Welcome to the Solar Index </p1>
     <p2> this is where you can see your Solarsystem and planets</p2>
-    {% for solar in Solar%}
+{% for solar in solars%}
     <p>{{ solar.solar_name }} </p>
-    <p>{{ planet.describe }}</p>
-    
-    {% endfor %}
-    {% for planet in planets %}
-        <p>{{ planet.planet_name }}</p>
+    {% for planet in solars %}
+        <p>{{ ssystem.planet.planet_name }}</p>
         <form action="{{ url_for('updateplanet', name=planet.planet_name) }}">
             <button type="submit">Update planet</button>
         </form>
         <form action="{{ url_for('deleteplanet', name=planet.planet_name) }}">
             <button type="submit">Delete planet</button>
         </form>
+        <p>{{ planet.describe }}</p>
     {% endfor %}
     
+{% endfor %}
 
 {% endblock %} 
 	
