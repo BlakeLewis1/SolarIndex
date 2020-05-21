@@ -40,8 +40,18 @@
             {% for error in form.describe.errors %}
                 <span>{{ error }}</span>
             {% endfor %}
-	{% endif %}
+    {% endif %}
+    {{ form.ssystem.label }}
+        {{ form.ssystem}}
     {{ form.submit }}
+    
+    <div>
+        <h3>List of SolarSystems</h3>
+        {% for solar in solars %}
+            <p>id: {{ solar.id }} name: {{ solar.solar_name }}</p>
+        {% endfor %}
+
+    </div>
     
         </div>
     </form>
