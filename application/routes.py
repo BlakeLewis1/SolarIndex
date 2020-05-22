@@ -46,7 +46,7 @@ def solar():
         db.session.add(solarData)
         db.session.commit()
 
-        return redirect(url_for('planet'))
+        return redirect(url_for('home'))
     else:
         print(form.errors)
     return render_template('solar.html', title='start your solar system', form=form)
