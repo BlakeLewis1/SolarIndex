@@ -1,10 +1,7 @@
 # SolarIndex
-<<<<<<< HEAD
+
 QA Training Project 
 
-
-=======
-QA Training Project
 
 ## Project Brief
 
@@ -18,4 +15,4 @@ Create,Read,Update,Delete
 ## Architecture
 
 [I'm an inline-style link](https://www.google.com)
->>>>>>> c722c46c44cf30d4c46c1336c69bb411422b7f94
+
