@@ -14,5 +14,5 @@ Create,Read,Update,Delete
 
 ## Architecture
 
-[I'm an inline-style link](https://www.google.com)
+[link to my CI Pipeline](https://www.google.com)
 
