@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block body_content %}
+    <p1> Welcome to the Solar Index </p1>
+    <p2> this is where you can see your Solarsystem and planets</p2>
+    
+    {% for solars in solar %}
+    <p>--------------------------------------------------</p>
+    <p>Solar System: {{ solars.solar_name }} </p>
+    <form action="{{ url_for('deletesolar', name=solars.id) }}">
+        <button type="submit">Delete Solar</button>
+    </form>
+
+    {% for planet in planets %}
+        {% if solars.id == planet.ssystem_id %} 
+            <p>..................................................</p>
+            <p>Planet: {{ planet.planet_name }}</p>
+            <p>Describe: {{ planet.describe }}</p>
+            <form action="{{ url_for('updateplanet', name=planet.planet_name) }}">
+               <button type="submit">Update planet</button>
+            </form>
+            <form action="{{ url_for('deleteplanet', name=planet.planet_name) }}">
+                <button type="submit">Delete planet</button>
+            </form>
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+{% endblock %} 
+	
