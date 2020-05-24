@@ -17,7 +17,10 @@ this meant that i had to create a application which was able to do the following
 
 * Update
 
-* Delete
+* Delete 
+## Project Tracking 
+This was one of the first things I completed in my project as it was important to get done as inorder to be able to complete the project in time and to a good quality the project would need to be planned properly. 
+[Trello](https://trello.com/b/Lfj9XdE4/solarindex)
 
 ## Architecture
 In this project I have used various technologies
@@ -37,13 +40,15 @@ In this project I have used various technologies
 ![Pipeline](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/pipeline2.png) 
 
 The image above is a rough representation of how the application was deployed. The source code was developed in visual studio code and in the ssh terminal here I used python and html along with the framework of flask.After i completed the code i had to push code to github after this the trello was updated.
-With Github I created a WebHook between Github and Jenkins would automatically pull the code from GitHub to the CI Server, Jenkins. Using a shell script, the build was made automatically. 
+With Github I created a WebHook between Github and Jenkins this would automatically pull the code from GitHub to the CI Server, Jenkins. Using a shell script, the build was made automatically. 
 
 ## ERD Diagram 
 
 This is my initial erd: 
 ![ERD](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/solar%20id%20.png)
+Some of the Tables in this ERD were unnecessary and not really needed for the web app so I took some time to simplify the erd diagram as i believed making a this many tables would lead to issues with the time constraint of the project 
 
 This is my final erd:
-![ERD2](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/solar_id%20ERD.png)
+![ERD2](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/solar_id%20ERD.png) 
+
 
