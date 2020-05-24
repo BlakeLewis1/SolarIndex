@@ -41,9 +41,9 @@ With Github I created a WebHook between Github and Jenkins would automatically p
 
 ## ERD Diagram 
 
-this is my initial erd 
+This is my initial erd: 
 ![ERD](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/solar%20id%20.png)
 
-this is my final erd
-![ERD2](
+This is my final erd:
+![ERD2](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/solar_id%20ERD.png)
 
