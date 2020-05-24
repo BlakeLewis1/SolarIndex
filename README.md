@@ -26,6 +26,6 @@ In this project I have used various technologies
 
 *Version Control:I used Github as my version control system as this was one of the modules i have learnt on the course
 
-[link to my CI Pipeline](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/pipeline.png)
+[link to my CI Pipeline](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/pipeline2.png)
 
-![Pipeline](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/pipeline.png)
+![Pipeline](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/pipeline2.png)
