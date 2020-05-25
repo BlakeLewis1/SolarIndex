@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+cd /var/lib/jenkins/workspace/solar_id
 sudo apt update -y
 
 sudo apt install python3 -y
