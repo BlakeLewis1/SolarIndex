@@ -58,15 +58,18 @@ The requirements of the project are as follows:
 
 [User Stories](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/User%20stories.pdf)
 
-[MOSCOW](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/MOSCOW.pdf)
+[MOSCOW](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/MOSCOW.pdf) 
 
-This was one of the first things I completed in my project as it was important to get done as inorder to be able to complete the project in time and to a good quality the project would need to be planned properly. In addition to creating a plan i would need to create user stories as well in order to structure priorties in the project and gain an idea of what the project would entail, these would be created in a word document and not included on the trello. I would also add colours to the different cards on trello to indicate piority this followed the following pattern:
+[Risk Assessment](
+
+This was one of the first things I completed in my project as it was important to get done inorder to be able to complete the project in time and to a good quality. this would help the project to be planned properly. In addition to creating a plan I would need to create user stories as well in order to structure priorties in the project and gain an idea of what the project would entail, these would be created in a word document and not included on the trello. I would also add colours to the different cards on trello to indicate piority this followed the following pattern:
 
 * Red - crucial 
 
 * Yellow -  important
 
 * Green - not important 
+In addition to this to order my piorties whilst developing my project i have created a document called MOSCOW this orders features of the project in Must haves, Should haves and Could haves. this helps me as it means that i spend time working on the most important tasks  
 
 
 ## Architecture
@@ -82,8 +85,6 @@ In this project I have used various technologies
 
 * Cloud server: GCP Compute Engine
 
-[link to my CI Pipeline](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/pipeline2.png)
-
 ![Pipeline](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/pipeline2.png) 
 
 The image above is a rough representation of how the application was deployed. The source code was developed in visual studio code and in the ssh terminal here I used python and html along with the framework of flask.After i completed the code i had to push code to github after this the trello was updated.
@@ -97,5 +98,9 @@ Some of the tables in this ERD were unnecessary and not really needed for the we
 
 This is my final erd:
 ![ERD2](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/solar_id%20ERD.png) 
+
+## Testing 
+
+Testing was completed using pytest as shown in my pipeline i completed testing with a 89% coverage using only unit tests this was due time constraints  
 
 
