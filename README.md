@@ -60,7 +60,7 @@ The requirements of the project are as follows:
 
 [MOSCOW](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/MOSCOW.pdf) 
 
-[Risk Assessment](
+[Risk Assessment](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/risk%20assessment%20-%20Sheet1.pdf)
 
 This was one of the first things I completed in my project as it was important to get done inorder to be able to complete the project in time and to a good quality. this would help the project to be planned properly. In addition to creating a plan I would need to create user stories as well in order to structure priorties in the project and gain an idea of what the project would entail, these would be created in a word document and not included on the trello. I would also add colours to the different cards on trello to indicate piority this followed the following pattern:
 
@@ -69,7 +69,9 @@ This was one of the first things I completed in my project as it was important t
 * Yellow -  important
 
 * Green - not important 
-In addition to this to order my piorties whilst developing my project i have created a document called MOSCOW this orders features of the project in Must haves, Should haves and Could haves. this helps me as it means that i spend time working on the most important tasks  
+
+In addition to this to order my piorties whilst developing my project i have created a document called MOSCOW this orders features of the project in Must haves, Should haves and Could haves. this helps me as it means that i spend time working on the most important tasks
+I also created a risk assessment this document was updated weekly.
 
 
 ## Architecture
