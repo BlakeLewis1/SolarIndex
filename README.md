@@ -21,7 +21,10 @@ this meant that i had to create a application which was able to do the following
 
 ## Project Tracking 
 [Trello](https://trello.com/b/Lfj9XdE4/solarindex)
+
 [User Stories](
+
+[MOSCOW](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/MOSCOW.pdf)
 
 This was one of the first things I completed in my project as it was important to get done as inorder to be able to complete the project in time and to a good quality the project would need to be planned properly. In addition to creating a plan i would need to create user stories as well in order to structure priorties in the project and gain an idea of what the project would entail, these would be created in a word document and not included on the trello. I would also add colours to the different cards on trello to indicate piority this followed the following pattern:
 
