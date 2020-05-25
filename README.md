@@ -22,7 +22,7 @@ this meant that i had to create a application which was able to do the following
 ## Project Tracking 
 [Trello](https://trello.com/b/Lfj9XdE4/solarindex)
 
-[User Stories](
+[User Stories](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/User%20stories.pdf)
 
 [MOSCOW](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/MOSCOW.pdf)
 
