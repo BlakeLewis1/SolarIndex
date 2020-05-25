@@ -5,7 +5,6 @@ from application.forms import PlanetForm, SolarForm
 
 @app.route('/')
 @app.route('/home')
-
 def home():
     solars = Solar.query.all()
     planets = Planets.query.all()
