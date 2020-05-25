@@ -28,6 +28,9 @@ class PlanetForm(FlaskForm):
     )
     submit = SubmitField('Add Planet')
 
+
+
+
 class SolarForm(FlaskForm):
     solar_name = StringField('Solar Name',
     validators = [
