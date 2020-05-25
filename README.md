@@ -54,7 +54,13 @@ The requirements of the project are as follows:
 
 
 
-[Trello](https://trello.com/b/Lfj9XdE4/solarindex)[User Stories](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/User%20stories.pdf)[MOSCOW](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/MOSCOW.pdf)[Risk Assessment](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/risk%20assessment%20-%20Sheet1.pdf)
+[Trello](https://trello.com/b/Lfj9XdE4/solarindex)  
+
+[User Stories](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/User%20stories.pdf)  
+
+[MOSCOW](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/MOSCOW.pdf)  
+
+[Risk Assessment](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/risk%20assessment%20-%20Sheet1.pdf)
 
 
 
