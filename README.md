@@ -111,6 +111,6 @@ This is my final erd:
 
 ## Testing 
 
-Testing was completed using pytest as shown in my pipeline i completed testing with a 89% coverage using only unit tests this was due time constraints  
+Testing was completed using pytest as shown in my pipeline i completed testing with a 89% coverage using only unit tests.
 
 
