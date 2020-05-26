@@ -111,6 +111,9 @@ This is my final erd:
 
 ## Testing 
 
-Testing was completed using pytest as shown in my pipeline i completed testing with a 89% coverage using only unit tests.
+Testing was completed using pytest as shown in my pipeline i completed testing with a 89% coverage using only unit tests. 
+
+[Tests](https://github.com/BlakeLewis1/SolarIndex/blob/master/Documentation/test%20for%20app.txt)
+
 
 
