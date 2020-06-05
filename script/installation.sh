@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd /var/lib/jenkins/workspace/solar_id
+cd /var/lib/jenkins/workspace/sfia1pipe
 sudo apt update -y
 
 sudo apt install python3 -y
@@ -12,7 +12,7 @@ python3 -m venv venv
 
 source ~/.bashrc
 
-source /var/lib/jenkins/workspace/solar_id/venv/bin/activate
+source /var/lib/jenkins/workspace/sfia1pipe/venv/bin/activate
 
 pip3 install -r requirements.txt
 
