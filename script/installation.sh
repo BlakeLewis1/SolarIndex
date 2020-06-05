@@ -16,6 +16,6 @@ source /var/lib/jenkins/workspace/solar_id/venv/bin/activate
 
 pip3 install -r requirements.txt
 
-cd /var/lib/jenkins/workspace/solar_id/
+cd /var/lib/jenkins/workspace/sfia1pipe/
 
-python3 /var/lib/jenkins/workspace/SolarIndex/app.py
+python3 /var/lib/jenkins/workspace/sfia1pipe/app.py
