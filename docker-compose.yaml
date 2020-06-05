@@ -6,5 +6,5 @@ services:
     - target: 5000
       published: 5000
     environment: 
-    - FLASK_DB_URI=${SOLAR_DB}
-    - FLASK_SECRET_KEY=${SECRET_KEY}
+      FLASK_DB_URI=${SOLAR_DB}
+      FLASK_SECRET_KEY=${SECRET_KEY}
